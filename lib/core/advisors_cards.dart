@@ -17,18 +17,32 @@ class _AdvisorCardsState extends State<AdvisorCards> {
     super.initState();
   }
 
+  //Yatırım danışmanlarının isme göre A-Z sıralanarak içeri alınması
   Stream<QuerySnapshot<Map<String, dynamic>>> _stream = FirebaseFirestore
       .instance
       .collection('Advisors')
       .orderBy('name', descending: false)
       .snapshots();
-
-  Future<List<QuerySnapshot<Map<String, dynamic>>>> laststream =
-      FirebaseFirestore.instance
+  //Tüm Dil Grupları butonuna ait filtre fonksiyonu
+  void allGroups() {
+    setState(() {
+      _stream = FirebaseFirestore.instance
           .collection('Advisors')
-          .where('team', isEqualTo: 'English')
-          .snapshots()
-          .toList();
+          .orderBy('name', descending: false)
+          .snapshots();
+    });
+  }
+
+  //Belirli bir dil grubu seçilmesi halinda kullanılacak fonksiyon
+  void changeGroup(String lanGroup) {
+    setState(() {
+      _stream = FirebaseFirestore.instance
+          .collection('Advisors')
+          .where('team', isEqualTo: lanGroup)
+          .orderBy('name', descending: false)
+          .snapshots();
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -45,12 +59,7 @@ class _AdvisorCardsState extends State<AdvisorCards> {
                 ),
               ),
               onPressed: () {
-                setState(() {
-                  _stream = FirebaseFirestore.instance
-                      .collection('Advisors')
-                      .orderBy('name', descending: false)
-                      .snapshots();
-                });
+                allGroups();
               },
               child: const FittedBox(
                 fit: BoxFit.contain,
@@ -62,121 +71,36 @@ class _AdvisorCardsState extends State<AdvisorCards> {
         ),
         Row(
           children: [
-            Expanded(
-                child: Padding(
-              padding: const EdgeInsets.all(2.0),
-              child: ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                      elevation: 0, backgroundColor: Colors.deepOrange.shade50),
-                  onPressed: () {
-                    setState(() {
-                      _stream = FirebaseFirestore.instance
-                          .collection('Advisors')
-                          .where('team', isEqualTo: 'Arabic')
-                          .orderBy('name', descending: false)
-                          .snapshots();
-                    });
-                  },
-                  child: const FittedBox(
-                    fit: BoxFit.contain,
-                    child: Text(
-                      'Arabic',
-                      style: TextStyle(color: Colors.black54),
-                    ),
-                  )),
-            )),
-            Expanded(
-                child: Padding(
-              padding: const EdgeInsets.all(2.0),
-              child: ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                      elevation: 0, backgroundColor: Colors.deepOrange.shade50),
-                  onPressed: () {
-                    setState(() {
-                      _stream = FirebaseFirestore.instance
-                          .collection('Advisors')
-                          .where('team', isEqualTo: 'English')
-                          .orderBy('name', descending: false)
-                          .snapshots();
-                    });
-                  },
-                  child: const FittedBox(
-                    fit: BoxFit.contain,
-                    child: Text(
-                      'English',
-                      style: TextStyle(color: Colors.black54),
-                    ),
-                  )),
-            )),
-            Expanded(
-                child: Padding(
-              padding: const EdgeInsets.all(2.0),
-              child: ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                      elevation: 0, backgroundColor: Colors.deepOrange.shade50),
-                  onPressed: () {
-                    setState(() {
-                      _stream = FirebaseFirestore.instance
-                          .collection('Advisors')
-                          .where('team', isEqualTo: 'Persian')
-                          .orderBy('name', descending: false)
-                          .snapshots();
-                    });
-                  },
-                  child: const FittedBox(
-                    fit: BoxFit.contain,
-                    child: Text(
-                      'Persian',
-                      style: TextStyle(color: Colors.black54),
-                    ),
-                  )),
-            )),
-            Expanded(
-                child: Padding(
-              padding: const EdgeInsets.all(2.0),
-              child: ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                      elevation: 0, backgroundColor: Colors.deepOrange.shade50),
-                  onPressed: () {
-                    setState(() {
-                      _stream = FirebaseFirestore.instance
-                          .collection('Advisors')
-                          .where('team', isEqualTo: 'Russian')
-                          .orderBy('name', descending: false)
-                          .snapshots();
-                    });
-                  },
-                  child: const FittedBox(
-                    fit: BoxFit.contain,
-                    child: Text(
-                      'Russian',
-                      style: TextStyle(color: Colors.black54),
-                    ),
-                  )),
-            )),
-            Expanded(
-                child: Padding(
-              padding: const EdgeInsets.all(2.0),
-              child: ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                      elevation: 0, backgroundColor: Colors.deepOrange.shade50),
-                  onPressed: () {
-                    setState(() {
-                      _stream = FirebaseFirestore.instance
-                          .collection('Advisors')
-                          .where('team', isEqualTo: 'Urdu')
-                          .orderBy('name', descending: false)
-                          .snapshots();
-                    });
-                  },
-                  child: const FittedBox(
-                    fit: BoxFit.contain,
-                    child: Text(
-                      'Urdu',
-                      style: TextStyle(color: Colors.black54),
-                    ),
-                  )),
-            )),
+            lanGroupButton(
+              group: () {
+                changeGroup('Arabic');
+              },
+              language: 'Arabic',
+            ),
+            lanGroupButton(
+              group: () {
+                changeGroup('English');
+              },
+              language: 'English',
+            ),
+            lanGroupButton(
+              group: () {
+                changeGroup('Persian');
+              },
+              language: 'Persian',
+            ),
+            lanGroupButton(
+              group: () {
+                changeGroup('Russian');
+              },
+              language: 'Russian',
+            ),
+            lanGroupButton(
+              group: () {
+                changeGroup('Urdu');
+              },
+              language: 'Urdu',
+            ),
           ],
         ),
         SizedBox(
@@ -212,7 +136,7 @@ class _AdvisorCardsState extends State<AdvisorCards> {
                               String phoneNumber = myAdvisors['tel'];
                               String whatsappPhone =
                                   'https://wa.me/905413068959';
-
+                              //Arama ekranına yönlendirmek için kullanılan fonksiyon
                               Future<void> _makePhoneCall(
                                   String phoneNumber) async {
                                 final Uri launchUri = Uri(
@@ -222,6 +146,7 @@ class _AdvisorCardsState extends State<AdvisorCards> {
                                 await launchUrl(launchUri);
                               }
 
+                              //Mail ekranına yönlendirmek için kullanılan fonksiyon
                               Future<void> _sendEmaii() async {
                                 final Uri _emailLauncherUri = Uri(
                                   scheme: 'mailto',
@@ -539,6 +464,40 @@ class _AdvisorCardsState extends State<AdvisorCards> {
   }
 }
 
+//Dil grubu seçimleri için kullanılan buton widgetı
+class lanGroupButton extends StatelessWidget {
+  const lanGroupButton({
+    Key? key,
+    required this.group,
+    required this.language,
+  }) : super(key: key);
+
+  final VoidCallback group;
+  final String language;
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+        child: Padding(
+      padding: const EdgeInsets.all(2.0),
+      child: ElevatedButton(
+          style: ElevatedButton.styleFrom(
+              elevation: 0, backgroundColor: Colors.deepOrange.shade50),
+          onPressed: () {
+            group;
+          },
+          child: FittedBox(
+            fit: BoxFit.contain,
+            child: Text(
+              language,
+              style: TextStyle(color: Colors.black54),
+            ),
+          )),
+    ));
+  }
+}
+
+//Rapor örneği için kullanılan fonksiyon
 class _statuChart extends StatelessWidget {
   const _statuChart({
     Key? key,
