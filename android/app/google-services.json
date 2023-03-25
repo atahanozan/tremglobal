@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "992008318698",
+    "project_id": "tremglobal-34927",
+    "storage_bucket": "tremglobal-34927.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992008318698:android:abd954299b33a350077193",
+        "android_client_info": {
+          "package_name": "com.example.tremglobal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992008318698-hsfrdv3lajhnkv4n8dgb22a1i2n11aop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1WnwIP1euBnc53GXPUBsczAdk223cj5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992008318698-hsfrdv3lajhnkv4n8dgb22a1i2n11aop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
