@@ -1,0 +1,328 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tremglobal"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml
+10
+11    <queries>
+11-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:3:5-8:15
+12        <intent>
+12-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:4:9-7:18
+13            <action android:name="android.intent.action.VIEW" />
+13-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:5:5-57
+13-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:5:13-54
+14
+15            <data android:scheme="tel" />
+15-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:6:5-34
+15-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:6:11-31
+16        </intent>
+17    </queries>
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:9:5-67
+19-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:9:22-64
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
+20-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:24:22-76
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4bb454b45c280e2812cd14bbb0d07f4d\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:24:5-68
+21-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4bb454b45c280e2812cd14bbb0d07f4d\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:24:22-65
+22    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+22-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4bb454b45c280e2812cd14bbb0d07f4d\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+22-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4bb454b45c280e2812cd14bbb0d07f4d\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+23-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\80c004d03f736afe057e6401d2b2816c\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+23-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\80c004d03f736afe057e6401d2b2816c\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+24
+25    <application
+26        android:name="android.app.Application"
+26-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:12:9-42
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.6.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\8ea6493c1882a2213c11a52e32ca8e08\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:13:9-43
+29        android:label="Trem Global Satış Raporları" >
+29-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:11:9-52
+30        <activity
+30-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:14:9-34:20
+31            android:name="com.example.tremglobal.MainActivity"
+31-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:15:13-41
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+32-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:19:13-163
+33            android:exported="true"
+33-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:16:13-36
+34            android:hardwareAccelerated="true"
+34-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:20:13-47
+35            android:launchMode="singleTop"
+35-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:17:13-43
+36            android:theme="@style/LaunchTheme"
+36-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:18:13-47
+37            android:windowSoftInputMode="adjustResize" >
+37-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:21:13-55
+38
+39            <!--
+40                 Specifies an Android theme to apply to this Activity as soon as
+41                 the Android process has started. This theme is visible to the user
+42                 while the Flutter UI initializes. After that, this theme continues
+43                 to determine the Window background behind the Flutter UI.
+44            -->
+45            <meta-data
+45-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:26:13-29:17
+46                android:name="io.flutter.embedding.android.NormalTheme"
+46-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:27:15-70
+47                android:resource="@style/NormalTheme" />
+47-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:28:15-52
+48
+49            <intent-filter>
+49-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:30:13-33:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:31:17-68
+50-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:31:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:32:17-76
+52-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:32:27-74
+53            </intent-filter>
+54        </activity>
+55        <!--
+56             Don't delete the meta-data below.
+57             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+58        -->
+59        <meta-data
+59-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:37:9-39:33
+60            android:name="flutterEmbedding"
+60-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:38:13-44
+61            android:value="2" />
+61-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:39:13-30
+62
+63        <service
+63-->[:firebase_auth] C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
+64            android:name="com.google.firebase.components.ComponentDiscoveryService"
+64-->[:firebase_auth] C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-89
+65            android:directBootAware="true"
+65-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\f048e1b45556afbc0ba3cec5e2df20f2\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:34:13-43
+66            android:exported="false" >
+66-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\438dcbd3976303122f6830c27bbfc813\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:10:13-37
+67            <meta-data
+67-->[:firebase_auth] C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+68                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+68-->[:firebase_auth] C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[:firebase_auth] C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+70            <meta-data
+70-->[:firebase_database] C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+71                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+71-->[:firebase_database] C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-127
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[:firebase_database] C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+73            <meta-data
+73-->[:cloud_firestore] C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+74-->[:cloud_firestore] C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-134
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[:cloud_firestore] C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+76            <meta-data
+76-->[:firebase_core] C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+77                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+77-->[:firebase_core] C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[:firebase_core] C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\438dcbd3976303122f6830c27bbfc813\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:11:13-13:85
+80                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+80-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\438dcbd3976303122f6830c27bbfc813\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:12:17-126
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\438dcbd3976303122f6830c27bbfc813\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:13:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\63285668bdaaf567789737b36a5ab60a\transformed\jetified-firebase-common-ktx-20.3.0\AndroidManifest.xml:14:13-16:85
+83                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+83-->[com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\63285668bdaaf567789737b36a5ab60a\transformed\jetified-firebase-common-ktx-20.3.0\AndroidManifest.xml:15:17-113
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\63285668bdaaf567789737b36a5ab60a\transformed\jetified-firebase-common-ktx-20.3.0\AndroidManifest.xml:16:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+86                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+86-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-firestore:24.4.2] C:\Users\Tremglobal78\.gradle\caches\transforms-3\d39cfc0ddb656332b94a382ac02975a6\transformed\jetified-firebase-firestore-24.4.2\AndroidManifest.xml:19:13-21:85
+89                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+89-->[com.google.firebase:firebase-firestore:24.4.2] C:\Users\Tremglobal78\.gradle\caches\transforms-3\d39cfc0ddb656332b94a382ac02975a6\transformed\jetified-firebase-firestore-24.4.2\AndroidManifest.xml:20:17-111
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-firestore:24.4.2] C:\Users\Tremglobal78\.gradle\caches\transforms-3\d39cfc0ddb656332b94a382ac02975a6\transformed\jetified-firebase-firestore-24.4.2\AndroidManifest.xml:21:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\c9934157379cd3a8eb568d3012bc2587\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+92                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+92-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\c9934157379cd3a8eb568d3012bc2587\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\c9934157379cd3a8eb568d3012bc2587\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+94            <meta-data
+94-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4bb454b45c280e2812cd14bbb0d07f4d\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+95                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+95-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4bb454b45c280e2812cd14bbb0d07f4d\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4bb454b45c280e2812cd14bbb0d07f4d\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\36c6ae360dea512017b8b49e1cd82418\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+98                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+98-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\36c6ae360dea512017b8b49e1cd82418\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\36c6ae360dea512017b8b49e1cd82418\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+100        </service>
+101
+102        <activity
+102-->[:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+103            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+103-->[:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+104            android:exported="false"
+104-->[:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+105            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+105-->[:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+106
+107        <uses-library
+107-->[androidx.window:window:1.0.0-beta04] C:\Users\Tremglobal78\.gradle\caches\transforms-3\60ec34c44261d97bebc76ccd1be8e15f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+108            android:name="androidx.window.extensions"
+108-->[androidx.window:window:1.0.0-beta04] C:\Users\Tremglobal78\.gradle\caches\transforms-3\60ec34c44261d97bebc76ccd1be8e15f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+109            android:required="false" />
+109-->[androidx.window:window:1.0.0-beta04] C:\Users\Tremglobal78\.gradle\caches\transforms-3\60ec34c44261d97bebc76ccd1be8e15f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+110        <uses-library
+110-->[androidx.window:window:1.0.0-beta04] C:\Users\Tremglobal78\.gradle\caches\transforms-3\60ec34c44261d97bebc76ccd1be8e15f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+111            android:name="androidx.window.sidecar"
+111-->[androidx.window:window:1.0.0-beta04] C:\Users\Tremglobal78\.gradle\caches\transforms-3\60ec34c44261d97bebc76ccd1be8e15f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+112            android:required="false" />
+112-->[androidx.window:window:1.0.0-beta04] C:\Users\Tremglobal78\.gradle\caches\transforms-3\60ec34c44261d97bebc76ccd1be8e15f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+113
+114        <activity
+114-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+115            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+115-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+116            android:excludeFromRecents="true"
+116-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+117            android:exported="true"
+117-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+118            android:launchMode="singleTask"
+118-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+119            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+119-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+120            <intent-filter>
+120-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+121                <action android:name="android.intent.action.VIEW" />
+121-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:5:5-57
+121-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:5:13-54
+122
+123                <category android:name="android.intent.category.DEFAULT" />
+123-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+123-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+124                <category android:name="android.intent.category.BROWSABLE" />
+124-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+124-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+125
+126                <data
+126-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:6:5-34
+127                    android:host="firebase.auth"
+128                    android:path="/"
+129                    android:scheme="genericidp" />
+129-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:6:11-31
+130            </intent-filter>
+131        </activity>
+132        <activity
+132-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+133            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+133-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+134            android:excludeFromRecents="true"
+134-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+135            android:exported="true"
+135-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+136            android:launchMode="singleTask"
+136-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+137            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+137-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+138            <intent-filter>
+138-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+139                <action android:name="android.intent.action.VIEW" />
+139-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:5:5-57
+139-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:5:13-54
+140
+141                <category android:name="android.intent.category.DEFAULT" />
+141-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+141-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+142                <category android:name="android.intent.category.BROWSABLE" />
+142-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+142-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\76feb729746a8d847698c3e6fdd362d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+143
+144                <data
+144-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:6:5-34
+145                    android:host="firebase.auth"
+146                    android:path="/"
+147                    android:scheme="recaptcha" />
+147-->C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\android\app\src\main\AndroidManifest.xml:6:11-31
+148            </intent-filter>
+149        </activity>
+150
+151        <provider
+151-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\f048e1b45556afbc0ba3cec5e2df20f2\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:25:9-30:39
+152            android:name="com.google.firebase.provider.FirebaseInitProvider"
+152-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\f048e1b45556afbc0ba3cec5e2df20f2\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:26:13-77
+153            android:authorities="com.example.tremglobal.firebaseinitprovider"
+153-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\f048e1b45556afbc0ba3cec5e2df20f2\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:27:13-72
+154            android:directBootAware="true"
+154-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\f048e1b45556afbc0ba3cec5e2df20f2\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:28:13-43
+155            android:exported="false"
+155-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\f048e1b45556afbc0ba3cec5e2df20f2\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:29:13-37
+156            android:initOrder="100" />
+156-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\f048e1b45556afbc0ba3cec5e2df20f2\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:30:13-36
+157
+158        <activity
+158-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\358f4bad997e948ba73c0d3db1c89196\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+159            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+159-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\358f4bad997e948ba73c0d3db1c89196\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+160            android:exported="false"
+160-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\358f4bad997e948ba73c0d3db1c89196\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+161            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+161-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\358f4bad997e948ba73c0d3db1c89196\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+162
+163        <receiver
+163-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\80c004d03f736afe057e6401d2b2816c\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+164            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+164-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\80c004d03f736afe057e6401d2b2816c\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+165            android:enabled="true"
+165-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\80c004d03f736afe057e6401d2b2816c\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+166            android:exported="false" >
+166-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\80c004d03f736afe057e6401d2b2816c\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+167        </receiver>
+168
+169        <service
+169-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\80c004d03f736afe057e6401d2b2816c\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+170            android:name="com.google.android.gms.measurement.AppMeasurementService"
+170-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\80c004d03f736afe057e6401d2b2816c\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+171            android:enabled="true"
+171-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\80c004d03f736afe057e6401d2b2816c\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+172            android:exported="false" />
+172-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\80c004d03f736afe057e6401d2b2816c\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+173        <service
+173-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\80c004d03f736afe057e6401d2b2816c\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+174            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+174-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\80c004d03f736afe057e6401d2b2816c\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+175            android:enabled="true"
+175-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\80c004d03f736afe057e6401d2b2816c\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+176            android:exported="false"
+176-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\80c004d03f736afe057e6401d2b2816c\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+177            android:permission="android.permission.BIND_JOB_SERVICE" />
+177-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\80c004d03f736afe057e6401d2b2816c\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+178
+179        <meta-data
+179-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4ce6873fe7c33a3710c4f729fb030cf9\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+180            android:name="com.google.android.gms.version"
+180-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4ce6873fe7c33a3710c4f729fb030cf9\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+181            android:value="@integer/google_play_services_version" />
+181-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4ce6873fe7c33a3710c4f729fb030cf9\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+182    </application>
+183
+184</manifest>

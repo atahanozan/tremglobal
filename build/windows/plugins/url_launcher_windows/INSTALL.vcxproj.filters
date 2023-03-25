@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Tremglobal78\Desktop\ozan_projeler\tremglobal\build\windows\CMakeFiles\8589cb7609b7131e4263ba94bbc0c619\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BE6E11F2-55F5-3E2E-B908-7F98A3314783}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

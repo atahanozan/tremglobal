@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Tremglobal78\\Desktop\\ozan_projeler\\tremglobal\\build\\cloud_firestore\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Tremglobal78\\.gradle\\caches\\transforms-3\\8ea6493c1882a2213c11a52e32ca8e08\\transformed\\core-1.6.0\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Tremglobal78\\Desktop\\ozan_projeler\\tremglobal\\build\\cloud_firestore\\intermediates\\merged_res\\release\\values-en-rAU\\values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Tremglobal78\\.gradle\\caches\\transforms-3\\8ea6493c1882a2213c11a52e32ca8e08\\transformed\\core-1.6.0\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
